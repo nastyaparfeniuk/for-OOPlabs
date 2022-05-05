@@ -24,7 +24,7 @@ public class Lab1 {
         int m = 4;
 
         //Умова, за якої знаменник буде рівний нулю
-        if (a < C && C < n){
+        if (a <= C && C <= n){
             System.out.println("Can't be divided by 0!");
             System.exit(0);
         }
